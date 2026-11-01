@@ -1,0 +1,90 @@
+[
+  {
+    "patient_id": 1,
+    "doctor_id": 1,
+    "visit_date": "2024-02-10",
+    "diagnosis": "Гипертония I степени",
+    "notes": "Повышенное давление, контроль АД, диета",
+    "test_results": {
+      "pressure": "150/95",
+      "cholesterol": 6.2
+    }
+  },
+  {
+    "patient_id": 1,
+    "doctor_id": 2,
+    "visit_date": "2024-04-22",
+    "diagnosis": "ОРВИ",
+    "notes": "Температура 38, кашель, назначен постельный режим",
+    "test_results": {
+      "temperature": 38.0,
+      "crp": 12
+    }
+  },
+  {
+    "patient_id": 2,
+    "doctor_id": 3,
+    "visit_date": "2024-05-15",
+    "diagnosis": "Мигрень",
+    "notes": "Жалобы на головные боли, назначено МРТ",
+    "test_results": {
+      "mri": "без патологий",
+      "pain_scale": 7
+    }
+  },
+  {
+    "patient_id": 2,
+    "doctor_id": 1,
+    "visit_date": "2024-06-01",
+    "diagnosis": "Аритмия",
+    "notes": "Нарушение ритма, назначен холтер на 24 часа",
+    "test_results": {
+      "ecg": "синусовая аритмия",
+      "heart_rate": 95
+    }
+  },
+  {
+    "patient_id": 3,
+    "doctor_id": 2,
+    "visit_date": "2024-06-20",
+    "diagnosis": "Гастрит",
+    "notes": "Боли в эпигастрии, рекомендована ФГДС и диета",
+    "test_results": {
+      "h_pylori": true,
+      "ph_meters": 1.8
+    }
+  },
+  {
+    "patient_id": 3,
+    "doctor_id": 3,
+    "visit_date": "2024-09-03",
+    "diagnosis": "Остеохондроз шейного отдела",
+    "notes": "Ограничение подвижности, назначена ЛФК",
+    "test_results": {
+      "mri": "протрузия C5-C6",
+      "pain_scale": 5
+    }
+  },
+  {
+    "patient_id": 4,
+    "doctor_id": 2,
+    "visit_date": "2024-07-11",
+    "diagnosis": "Анемия",
+    "notes": "Слабость, бледность, назначен общий анализ крови повторно",
+    "test_results": {
+      "hemoglobin": 105,
+      "ferritin": 12.4
+    }
+  },
+  {
+    "patient_id": 4,
+    "doctor_id": 1,
+    "visit_date": "2024-10-02",
+    "diagnosis": "Гипертония I степени",
+    "notes": "Повышенное давление на профилактическом осмотре",
+    "test_results": {
+      "pressure": "145/90",
+      "cholesterol": 5.4
+    }
+  }
+]
